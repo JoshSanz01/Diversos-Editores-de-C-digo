@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swa');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Neucha';
+}
+html{
+	scroll-behavior: smooth;
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#inicio{
+	background-color: #7be6ce;
+}
+#a1{
+	background-color: rgb(231, 229, 97);
+}
+#a2{
+	background-color: #78e978;
+}
+#a3{
+	background-color: #b86a6a;
+}
+#a4{
+	background-color: #e588c6;
+}
+#a5{
+	background-color: #cdf56f;
+}
+#a6{
+	background-color: #d4e4eb;
+}
+
+
+#inicio h1{
+	font-size: 68px;
+	letter-spacing: 5px;
+}
+section h2{
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+section img{
+	margin-top: 30px;
+	max-width: 300px;
+}
+.contenedor-tiempo{
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+}
+
+.fecha{
+	display: inline-block;
+	font-size: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #b363c7;
+	text-decoration: none;
+	color: white;
+	margin: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	scale: 1;
+	transition: background-color, transform .5s linear;
+}
+.seleccionado{
+	transform: scale(1.2) ;
+	background-color: #EA5455;
+	color: #000;
+	font-weight: bold;
+}
